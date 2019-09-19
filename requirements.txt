@@ -1,0 +1,9 @@
+# Major packages in environment at C:\Users\rahul\Anaconda3\envs\dlenv:
+#
+# Name                    Version                   Build  Channel
+tensorflow-gpu            1.14.0                   pypi_0    pypi
+pillow                    6.1.0                    pypi_0    pypi
+keras                     2.3.0                    pypi_0    pypi
+scipy                     1.2.1                    pypi_0    pypi
+numpy                     1.16.4           py37h19fb1c0_0
+python                    3.7.4                h5263a28_0
