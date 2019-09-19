@@ -12,7 +12,6 @@ def generateSR(lr_image_path):
     sr = resolve_single(model, lr)
     img = Image.fromarray(sr.numpy(), 'RGB')
     n = img.size
-    img.resize((n[0], n[1]), Image.ANTIALIAS)
     name = input("Enter image name : ")
     ext = int(input("Choose format option 1 or 2 ( 1 -> .jpg , 2 -> .png) : "))
     if ext == 1:
