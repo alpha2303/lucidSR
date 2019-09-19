@@ -36,16 +36,7 @@ print("\n**************************************************")
 print("\t\tWelcome to Lucid")
 image_path = input("Enter Image path in unicode format : ")
 
-# Number of residual blocks
-depth = 16
-
-# Super-resolution factor
-scale = 4
-
-# Downgrade operator
-downgrade = 'bicubic'
-
-weights_dir = f'weights/edsr-{depth}-x{scale}'
+weights_dir = f'weights/edsr-16-x4'
 weights_file = os.path.join(weights_dir, 'weights.h5')
 
 os.makedirs(weights_dir, exist_ok=True)
